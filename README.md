@@ -14,9 +14,9 @@ The frontend for the multi step form is here:
 
 To run this in the local
 
-1. Create a .env file and add below details of your email account (gmail is used in this repo but you can configure it for other email providers as well)
-    - username
-    - password 
+1. Create a .env file and add below details of your email account (gmail is used in this repo)
+    - username (your gmail id)
+    - appPassword ( your gmail app password for this app - 16 digits) 
 2. Run the below command and the app will run in port 3007
 
-       node src/index.js
+       npm start
